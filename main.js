@@ -156,8 +156,8 @@ function playGame(playerMove) {
 
   document.querySelector('.js-moves').innerHTML = `
   You
-    <img src="/img/${playerMove}-emoji.png" alt="" class="move-icon">
-    <img src="/img/${computerMove}-emoji.png" alt="" class="move-icon">
+    <img src="img/${playerMove}-emoji.png" alt="" class="move-icon">
+    <img src="img/${computerMove}-emoji.png" alt="" class="move-icon">
   Computer`;
 
   document.querySelector('.js-score').innerHTML = `Wins: ${score.win}. Losses: ${score.lose}. Ties: ${score.tie}`;
